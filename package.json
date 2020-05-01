@@ -4,8 +4,13 @@
   "description": "Exercises from a course written by the Honk Kong University of science and technology",
   "main": "index.htlm",
   "scripts": {
+    "start-dev": "npm run lite",
+    "lite": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
